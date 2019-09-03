@@ -22,7 +22,7 @@ namespace StrategyDesignPatternExample
             studentRecords.Add("Sandra");
             studentRecords.Add("Vivek");
             studentRecords.Add("Anna");
-
+            
             studentRecords.SetSortStrategy(new QuickSort());
             studentRecords.Sort();
 

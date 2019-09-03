@@ -11,6 +11,7 @@ namespace StrategyDesignPatternExample
         private List<string> _list = new List<string>();
         private SortStrategy _sortstrategy;
 
+        // Dependecy Injection
         public void SetSortStrategy(SortStrategy sortstrategy)
         {
             this._sortstrategy = sortstrategy;
